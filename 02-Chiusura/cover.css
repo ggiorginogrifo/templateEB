@@ -1,0 +1,15 @@
+
+
+.cover-container {
+    width: 1920px !important;
+    height: 1080px !important;
+    background: url(img/open_bck.jpg) no-repeat;
+    background-size: contain;
+}
+
+h3.cover-heading {
+    font-family: 'flama_condensed';
+    font-size: 3.1rem !important;
+}
+
+

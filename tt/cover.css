@@ -1,0 +1,53 @@
+.cover-container {
+    width: 1920px !important;
+    height: 1080px !important;
+    background: url(img/background.jpg) no-repeat;
+    background-size: contain;
+}
+
+.subtitled:before {
+    position:absolute;
+    font-size:2.25rem;
+    margin-top:8.1rem;
+    color:#ffffff;
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+}
+
+
+.utenti.subtitled:before {
+    content:'UTENTI UNICI RAGGIUNTI';
+}
+
+.like.subtitled:before {
+    content:'LIKE';
+}
+
+.commenti.subtitled:before {
+    content:'COMMENTI';
+}
+
+.impression.subtitled:before {
+    content:'IMPRESSIONS';
+}
+
+.reaction.subtitled:before {
+    content:'REACTIONS';
+}
+
+.click.subtitled:before {
+    content:'LINK CLICKS';
+}
+
+.condivisioni.subtitled:before {
+    content:'CONDIVISIONI';
+}
+
+.img_container {
+    padding-top: 8.5rem;
+}
+
+.padding_container {
+    padding-top: 12rem;
+}

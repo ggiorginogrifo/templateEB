@@ -1,0 +1,65 @@
+.cover-container {
+    width: 1920px !important;
+    height: 1080px !important;
+    background: url(img/background.jpg);
+    background-size: contain;
+}
+
+h1.cover-heading {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-style: medium !important;
+    font-weight: 600 !important;
+    font-family: "flama_condensed" !important;
+}
+
+
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.table td, .table th {
+    padding: .35rem;
+}
+
+
+.table thead th {
+    border-bottom: 1px solid #ffffff !important;
+}
+
+.table {
+    color:#000000 !important;
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+    font-size:1.1rem;
+    background:#ffffff;
+    width:95%;
+}
+
+.indicazioni {
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+    font-size:1.5rem;
+    background: #ffffff;
+    color: #000000;
+}
+
+.col-12.table_posizionamenti.p-0.text-left {
+    background: #ffffff;
+}
+
+tr {
+    background: #ffffff;
+}
+
+th {
+    font-weight: 400;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #ededed;
+}

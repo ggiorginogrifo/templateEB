@@ -1,0 +1,49 @@
+
+.cover-container {
+    width: 1920px !important;
+    height: 1080px !important;
+    background: #000000;
+    background-size: contain;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 20px solid rgb(255 0 0 / 0);
+}
+
+.social_img {
+    object-fit: contain;
+    width: 100%;
+}
+
+h1.cover-heading {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+main.inner.cover {
+    background: #ffffff;
+}
+
+.cover {
+    padding: 0;
+    color:#000000;
+}
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.border-custom {
+    border: 2px solid #ccc;
+}
+
+.p-custom {
+    padding: 6rem 0;
+}
+
+main {
+    min-height: 89.25%;
+    width: 97.75%;
+    margin: 0 auto;
+}

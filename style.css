@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "flama_condensed";
+    src: url(assets/fonts/flamacondensed-bold-webfont.woff2) format("woff2"),
+        url(assets/fonts/flamacondensed-bold-webfont.woff) format("woff");
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "flama_condensed";
+    src: url(assets/fonts/flamacondensed-black-webfont.woff2) format("woff2"),
+        url(assets/fonts/flamacondensed-black-webfont.woff) format("woff");
+    font-weight: bold;
+    font-style: black;
+}
+
+@font-face {
+    font-family: "flama_condensed";
+    src: url(assets/fonts/flamacondensed-book-webfont.woff2) format("woff2"),
+        url(assets/fonts/flamacondensed-book-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: book;
+}
+
+@font-face {
+    font-family: "flama_condensed";
+    src: url(assets/fonts/flamacondensed-extrabold-webfont.woff2)
+            format("woff2"),
+        url(assets/fonts/flamacondensed-extrabold-webfont.woff) format("woff");
+    font-weight: 900;
+    font-style: extrabold;
+}
+
+@font-face {
+    font-family: "flama_condensed";
+    src: url(assets/fonts/flamacondensed-medium-webfont.woff2) format("woff2"),
+        url(assets/fonts/flamacondensed-medium-webfont.woff) format("woff");
+    font-weight: 500;
+    font-style: medium;
+}
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #333;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+.cover {
+    padding: 0;
+}
+
+.padding_container {
+    padding-top: 16rem;
+}
+
+.header_title {
+    font-size: 5rem;
+    font-family: "flama_condensed";
+    font-weight: 600;
+    font-style: book;
+}
+
+.big_text {
+    font-family: "flama_condensed";
+    font-weight: 900;
+    font-style: extrabold;
+    font-size: 7.5rem;
+    color: #38d3aa;
+    line-height: 1.2;
+}
+
+.small_text {
+    font-family: "flama_condensed";
+    font-weight: normal;
+    font-style: book;
+    font-size: 1.65rem;
+    line-height: 0;
+}
+
+.social_img {
+    width:100%;
+    object-fit:contain;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+.img_container {
+    padding-top: 6.5rem;
+}
+
+.subtitled:before {
+    position:absolute;
+    font-size:2rem;
+    margin-top:8.1rem;
+    color:#ffffff;
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }

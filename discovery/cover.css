@@ -1,0 +1,95 @@
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+.cover-container {
+    width: 1920px !important;
+    height: 1080px !important;
+    background: url(img/background.jpg) no-repeat;
+    background-size: contain;
+}
+
+.img_container {
+    padding-top:17rem;
+}
+
+.header_title {
+    line-height: 5rem;
+}
+
+.padding_left {
+    padding-left:3rem
+}
+
+
+
+.table-bordered {
+    border: 3px solid #ffffff !important;
+}
+
+.table thead th {
+    border-bottom: 3px solid #ffffff !important;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 3px solid #ffffff !important;
+}
+
+.table {
+    color: #ffffff;
+}
+
+table.table.table-bordered {
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+    font-size: 2.25rem;
+    width:62%;
+}
+
+.notifica {
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+    font-size: 2.25rem;
+}
+
+.table_youtube_row {
+    padding-top:8rem;
+}
+
+.subtitled:before {
+    font-size:2.25rem;
+}
+
+.utenti.subtitled:before {
+    content:'UTENTI UNICI RAGGIUNTI';
+}
+
+.click.subtitled:before {
+    content:'CLICKS->VIEWS';
+}
+
+.commenti.subtitled:before {
+    content:'COMMENTI';
+}
+
+.impression.subtitled:before {
+    content:'IMPRESSIONS';
+}
+
+.reaction.subtitled:before {
+    content:'REACTIONS';
+}
+
+.condivisioni.subtitled:before {
+    content:'CONDIVISIONI';
+}
+

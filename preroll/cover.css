@@ -1,0 +1,92 @@
+
+.cover-container {
+    width: 1920px !important;
+    height: 1080px !important;
+    background: url(img/background.jpg) no-repeat;
+    background-size: contain;
+}
+
+.img_container {
+    padding-top: 19rem;
+}
+
+.header_title {
+    line-height: 5rem;
+}
+
+.padding_both {
+    padding: 0 1.5rem;
+}
+
+
+.table-bordered {
+    border: 3px solid #ffffff !important;
+}
+
+.table thead th {
+    border-bottom: 3px solid #ffffff !important;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 3px solid #ffffff !important;
+}
+
+.table {
+    color: #ffffff;
+}
+
+table.table.table-bordered {
+    font-family: 'flama_condensed';
+    font-size: 2.25rem;
+    width:62%;
+}
+
+.notifica {
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+    font-size: 2.25rem;
+}
+
+.table_youtube_row {
+    padding-top:8rem;
+}
+
+.impression:before {
+    content:'IMPRESSION';
+    position:absolute;
+    font-size:2.25rem;
+    margin-top:8.1rem;
+    color:#ffffff;
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+}
+
+.views:before {
+    content:'VIEWS';
+    position:absolute;
+    font-size:2.25rem;
+    margin-top:8.1rem;
+    color:#ffffff;
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+}
+
+.click:before {
+    content:'CLIC';
+    position:absolute;
+    font-size:2.25rem;
+    margin-top:8.1rem;
+    color:#ffffff;
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+}
+
+.table td, .table th {
+    padding: 0 3rem !important;
+}
+
+

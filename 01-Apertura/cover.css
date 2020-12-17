@@ -1,0 +1,29 @@
+
+.cover-container {
+    width: 1920px !important;
+    height: 1080px !important;
+    background: url(img/open_bck.jpg) no-repeat;
+    background-size: contain;
+}
+
+h1.cover-heading {
+    font-family: 'flama_condensed';
+    font-weight: bold;
+    font-style: black;
+    font-size: 8.1rem;
+    text-transform: uppercase;
+    color: #38d3aa;
+    text-align: left;
+}
+
+
+p.lead.title {
+    font-size: 2.75rem;
+    color: #000000;
+	line-height: 1rem;
+    font-family: 'flama_condensed';
+    font-weight: normal;
+    font-style: book;
+}
+
+
