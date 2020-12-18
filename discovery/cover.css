@@ -62,7 +62,7 @@ table.table.table-bordered {
 }
 
 .table_youtube_row {
-    padding-top:8rem;
+    padding-top:4rem;
 }
 
 .subtitled:before {
@@ -92,4 +92,13 @@ table.table.table-bordered {
 .condivisioni.subtitled:before {
     content:'CONDIVISIONI';
 }
+
+.two_rows.padding_container {
+    padding-top: 18rem;
+}
+
+.one_row.padding_container {
+    padding-top: 18rem;
+}
+
 

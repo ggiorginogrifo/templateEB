@@ -19,6 +19,7 @@
 }
 
 
+
 .table-bordered {
     border: 3px solid #ffffff !important;
 }
@@ -49,7 +50,7 @@ table.table.table-bordered {
 }
 
 .table_youtube_row {
-    padding-top:8rem;
+    padding-top:4rem;
 }
 
 .impression:before {
@@ -89,4 +90,10 @@ table.table.table-bordered {
     padding: 0 3rem !important;
 }
 
+.custom_margins_y {
+    margin-bottom: -3.5rem !important;
+}
 
+.padding_container {
+    padding-top: 13rem;
+}

@@ -1,73 +1,3 @@
-/*
- * Globals
- */
-
-/* Links */
-
-@font-face {
-    font-family: 'flama_condensed';
-    src: url(fonts/flamacondensed-bold-webfont.woff2) format('woff2'),
-         url(fonts/flamacondensed-bold-webfont.woff) format('woff');
-    font-weight: bold;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'flama_condensed';
-    src: url(fonts/flamacondensed-black-webfont.woff2) format('woff2'),
-         url(fonts/flamacondensed-black-webfont.woff) format('woff');
-    font-weight: bold;
-    font-style: black;
-
-}
-
-@font-face {
-    font-family: 'flama_condensed';
-    src: url(fonts/flamacondensed-book-webfont.woff2) format('woff2'),
-         url(fonts/flamacondensed-book-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: book;
-
-}
-
- @font-face {
-    font-family: 'flama_condensed';
-    src: url(fonts//flamacondensed-extrabold-webfont.woff2) format('woff2'),
-         url(fonts//flamacondensed-extrabold-webfont.woff) format('woff');
-    font-weight: 900;
-    font-style: extrabold;
-}
-
-@font-face {
-    font-family: 'flama_condensed';
-    src: url(fonts//flamacondensed-medium-webfont.woff2) format('woff2'),
-         url(fonts//flamacondensed-medium-webfont.woff) format('woff');
-    font-weight: 500;
-    font-style: medium;
-}
-
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
-/*
- * Base structure
- */
-
-html,
-body {
-  height: 100%;
-  background-color: #333;
-}
-
-body {
-  display: -ms-flexbox;
-  display: flex;
-  color: #fff;
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-}
 
 .cover-container {
     width: 1920px !important;
@@ -76,12 +6,6 @@ body {
     background-size: contain;
 }
 
-/*
- * Cover
- */
-.cover {
-  padding: 0;
-}
 
 .header_title {
     font-size: 5rem;
@@ -90,7 +14,7 @@ body {
     font-style: book;
 }
 
-
+/*
 .big_text {
     font-family: 'flama_condensed';
     font-weight: 900;
@@ -99,7 +23,7 @@ body {
     color: #38d3aa;
 	line-height:1.2;
 }
-
+ */
 .small_text {
     font-family: 'flama_condensed';
     font-weight: normal;
@@ -139,6 +63,11 @@ body {
 
 .pl-6 {padding-left:5rem}
 
+.custom_margins_y {
+    margin-bottom: -3.5rem !important;
+}
 
-
+.one_row.padding_container {
+    padding-top: 17rem;
+}
 

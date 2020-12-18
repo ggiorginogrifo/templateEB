@@ -48,6 +48,10 @@
     padding-top: 8.5rem;
 }
 
-.padding_container {
-    padding-top: 12rem;
+.custom_margins_y {
+    margin-bottom: -3rem !important;
+}
+
+.one_row.padding_container {
+    padding-top: 18rem;
 }

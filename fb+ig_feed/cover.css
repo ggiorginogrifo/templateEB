@@ -115,11 +115,11 @@ body {
 
 hr  {
     border-top: 4px dashed #ffffff;
-    margin: 4rem 2rem 2rem 1rem;
+    margin: 5rem 2rem 1rem 0rem;
 }
 
 .padding_container {
-    padding-top: 9.5rem;
+    padding-top: 9rem;
 }
 
 .social_img {
@@ -139,3 +139,6 @@ hr  {
 .pl-6 {padding-left:5rem}
 
 
+.custom_margins_y {
+    margin-bottom: -5rem !important;
+}

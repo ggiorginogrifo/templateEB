@@ -36,15 +36,15 @@
             <div class="col-1 col-xs-1"></div>
             <div class="col-7 col-xs-7 p-0">
                 <div class="row m-0">
-                    <div class="col-12 col-xs-12 header_title p-0"><?= $titolo ?></div>
+                    <div class="col-12 col-xs-12 header_title <?= $break_text ?> p-0"><?= $titolo ?></div>
                 </div>
                 <div class="row m-0 elements d-flex align-items-center h-100">
-                    <div class="col-12 col-xs-12 px-0 padding_container">
+                    <div class="col-12 col-xs-12 px-0 padding_container <?= $custom_class_2 ?>">
                         <div class="row impression_row m-0 ">
                             <div class="col-12 col-xs-12 p-0">
-                                <span class="impression big_text"><?= $impression ?></span>
-                                <span class="views big_text px-5"><?= $view ?></span>
-                                <span class="click big_text"><?= $click ?></span>
+                                <span class="impression d-inline-block big_text pl-0"><?= $impression ?></span>
+                                <span class="views d-inline-block big_text px-5"><?= $view ?></span>
+                                <span class="click d-inline-block big_text pl-0"><?= $click ?></span>
                             </div>
                         </div>
                         <div class="row table_youtube_row px-0 m-0">

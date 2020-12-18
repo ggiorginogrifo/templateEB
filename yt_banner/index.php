@@ -50,14 +50,14 @@
             <div class="col-1 col-xs-1"></div>
             <div class="col-4 col-xs-4 p-0">
                 <div class="row m-0">
-                    <div class="col-12 col-xs-12 header_title p-0"><?= $titolo ?></div>
+                    <div class="col-12 col-xs-12 header_title <?= $break_text ?> p-0"><?= $titolo ?></div>
                 </div>
                 <div class="row m-0 elements d-flex align-items-center h-100">
-                    <div class="col-12 col-xs-12 px-0 padding_container">
+                    <div class="col-12 col-xs-12 px-0 padding_container <?= $custom_class_2 ?>">
                         <div class="row impression_row m-0 ">
                             <div class="col-12 col-xs-12 p-0">
-                                <div class="impression big_text"><?= $impression ?></div>
-                                <div class="click big_text pt-5"><?= $click ?></div>
+                                <div class="impression big_text pl-0"><?= $impression ?></div>
+                                <div class="click big_text pt-5 pl-0"><?= $click ?></div>
                             </div>
                         </div>
                     </div>

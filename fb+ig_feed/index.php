@@ -63,29 +63,29 @@
 		  <div class="col-1 col-xs-1"></div>
 		 <div class="col-7 col-xs-7 p-0">
 			 <div class="row m-0">
-		            <div class="col-12 col-xs-12 header_title p-0"><?=$titolo_fb_ig_feed?></div>
+		            <div class="col-12 col-xs-12 header_title <?= $break_text ?> p-0"><?=$titolo_fb_ig_feed?></div>
 			 </div>
 			  <div class="row m-0 elements d-flex align-items-center h-100">
 				   <div class="col-12 col-xs-12 px-0 padding_container">
 		              <div class="row utenti_row m-0">
 		                    <div class="col-4 col-xs-4 utenti big_text subtitled pl-0"><?=$numero_utenti_unici_fb_feed?></div>
-			        	    <div class="col-4 col-xs-4 click big_text subtitled <?= $class ?>"><?=$numero_click_fb_feed?></div>
+			        	    <div class="col-4 col-xs-4 click big_text subtitled "><?=$numero_click_fb_feed?></div>
 			        	    <div class="col-4 col-xs-4 commenti big_text subtitled"><?=$numero_commenti_fb_feed?></div>
 		              </div>
 					   <div class="row impression_row pt-4 m-0">
 						   <div class="col-4 col-xs-4 impression big_text subtitled pl-0"><?=$numero_impression_fb_feed?></div>
-						   <div class="col-4 col-xs-4 reaction big_text subtitled <?= $class ?>"><?=$numero_reaction_fb_feed?></div>
+						   <div class="col-4 col-xs-4 reaction big_text subtitled "><?=$numero_reaction_fb_feed?></div>
 						   <div class="col-4 col-xs-4 condivisioni big_text subtitled"><?=$numero_condivisioni_fb_feed?></div>
 					   </div>
 					   <hr>
-					   <div class="row utenti_row m-0">
+					   <div class="row utenti_row m-0 pt-4">
 						   <div class="col-4 col-xs-4 utenti big_text subtitled pl-0"><?=$numero_utenti_unici_ig_feed?></div>
-						   <div class="col-4 col-xs-4 click big_text subtitled <?= $class ?>"><?=$numero_click_ig_feed?></div>
+						   <div class="col-4 col-xs-4 click big_text subtitled "><?=$numero_click_ig_feed?></div>
 						   <div class="col-4 col-xs-4 commenti big_text subtitled"><?=$numero_commenti_ig_feed?></div>
 					   </div>
 					   <div class="row impression_row pt-4 m-0">
 						   <div class="col-4 col-xs-4 impression big_text subtitled pl-0"><?=$numero_impression_ig_feed?></div>
-						   <div class="col-4 col-xs-4 reaction big_text subtitled <?= $class ?>"><?=$numero_reaction_ig_feed?></div>
+						   <div class="col-4 col-xs-4 reaction big_text subtitled "><?=$numero_reaction_ig_feed?></div>
 						   <div class="col-4 col-xs-4 condivisioni big_text subtitled"><?=$numero_condivisioni_ig_feed?></div>
 					   </div>
 				   </div>

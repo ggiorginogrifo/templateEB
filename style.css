@@ -71,15 +71,19 @@ body {
     font-family: "flama_condensed";
     font-weight: 600;
     font-style: book;
+    line-height: 5rem;
+    margin-top: 20px !important;
+
 }
 
 .big_text {
     font-family: "flama_condensed";
     font-weight: 900;
     font-style: extrabold;
-    font-size: 7.5rem;
+    font-size: 8.1rem;
     color: #38d3aa;
     line-height: 1.2;
+    padding-left: 6rem;
 }
 
 .small_text {
@@ -133,3 +137,7 @@ body {
       font-size: 3.5rem;
     }
   }
+
+.custom_margins_y {
+    margin-bottom: -5rem !important;
+}
