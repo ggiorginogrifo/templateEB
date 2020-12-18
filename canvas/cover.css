@@ -98,6 +98,7 @@ span.element_click {
     font-weight: bold;
     font-style: black;
     display: inline-block;
+    vertical-align: middle;
     color:#38d3aa;
     width: 50%;
     line-height:1;
@@ -111,6 +112,7 @@ span.element_click {
     color: #000000;
     text-align: right !important;
     display: inline-block;
+    vertical-align: middle;
 }
 
 

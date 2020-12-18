@@ -38,7 +38,7 @@
 		.condivisioni.subtitled:before {
 			content:'CONDIVISIONI';
 		}
-      }
+
 
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
