@@ -5,15 +5,6 @@
     background-size: contain;
 }
 
-.subtitled:before {
-    position:absolute;
-    font-size:2.25rem;
-    margin-top:8.1rem;
-    color:#ffffff;
-    font-family: 'flama_condensed';
-    font-weight: normal;
-    font-style: book;
-}
 
 
 .utenti.subtitled:before {
@@ -54,4 +45,8 @@
 
 .one_row.padding_container {
     padding-top: 18rem;
+}
+
+.pl-6 {
+    padding-left: 5rem;
 }

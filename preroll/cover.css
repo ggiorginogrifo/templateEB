@@ -95,5 +95,9 @@ table.table.table-bordered {
 }
 
 .padding_container {
-    padding-top: 13rem;
+    padding-top: 18rem;
+}
+
+.two_rows.padding_container {
+    padding-top: 16.5rem;
 }
