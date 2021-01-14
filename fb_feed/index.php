@@ -31,7 +31,6 @@
         .condivisioni.subtitled:before {
             content: 'CONDIVISIONI';
         }
-        }
 
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
@@ -66,7 +65,7 @@
                     <div class="col-12 col-xs-12 px-0 padding_container <?= $custom_class_2 ?>">
                         <div class="row utenti_row m-0">
                             <div class="col-4 col-xs-4 utenti big_text subtitled pl-0"><?= $numero_utenti_unici ?></div>
-                            <div class="col-4 col-xs-4 click big_text subtitled"><?= $numero_click ?></div>
+                            <div class="col-4 col-xs-4 click big_text subtitled <?= ($class == 'pl-6' ? 'subtitled-fs-reduced' : '') ?>"><?= $numero_click ?></div>
                             <div class="col-4 col-xs-4 commenti big_text subtitled"><?= $numero_commenti ?></div>
 
                         </div>

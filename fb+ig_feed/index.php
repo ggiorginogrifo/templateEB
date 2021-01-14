@@ -69,7 +69,7 @@
 				   <div class="col-12 col-xs-12 px-0 padding_container">
 		              <div class="row utenti_row m-0">
 		                    <div class="col-4 col-xs-4 utenti big_text subtitled pl-0"><?=$numero_utenti_unici_fb_feed?></div>
-			        	    <div class="col-4 col-xs-4 click big_text subtitled "><?=$numero_click_fb_feed?></div>
+			        	    <div class="col-4 col-xs-4 click big_text subtitled <?= $class == 'pl-6' ? 'subtitled-fs-reduced' : ''?>"><?=$numero_click_fb_feed?></div>
 			        	    <div class="col-4 col-xs-4 commenti big_text subtitled"><?=$numero_commenti_fb_feed?></div>
 		              </div>
 					   <div class="row impression_row pt-4 m-0">
@@ -80,7 +80,7 @@
 					   <hr>
 					   <div class="row utenti_row m-0 pt-4">
 						   <div class="col-4 col-xs-4 utenti big_text subtitled pl-0"><?=$numero_utenti_unici_ig_feed?></div>
-						   <div class="col-4 col-xs-4 click big_text subtitled "><?=$numero_click_ig_feed?></div>
+						   <div class="col-4 col-xs-4 click big_text subtitled <?= $class == 'pl-6' ? 'subtitled-fs-reduced' : ''?>"><?=$numero_click_ig_feed?></div>
 						   <div class="col-4 col-xs-4 commenti big_text subtitled"><?=$numero_commenti_ig_feed?></div>
 					   </div>
 					   <div class="row impression_row pt-4 m-0">
