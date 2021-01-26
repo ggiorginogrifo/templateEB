@@ -16,9 +16,10 @@
         <div class="row m-0 elements d-flex align-items-center h-100">
             <div class="col-1 col-xs-1"></div>
             <div class="col-8 col-xs-8 p-0">
-                <h1 class="cover-heading pt-5 px-0">Report</h1>
-                <p class="lead title pb-5 px-0"><?= $titolo_report ?> "<?= $sottotitolo_report ?>"</p>
-                <p class="lead logo_image py-5 px-0"><img src="<?= $base_path ?>/01-Apertura/img/logo.png" width="192" height="161"></p>
+                <h1 class="cover-heading px-0 " style="padding-top: 5.5rem !important;">Report</h1>
+                <p class="lead title pt-3 pb-3 px-0"><?= $titolo_report ?></p>
+                <p class="lead subtitle px-0"><?= $sottotitolo_report ?></p>
+                <p class="lead logo_image py-5 px-0"><img class="logo_custom" src="<?= $base_path ?>/01-Apertura/img/logo.png" width="192" height="161"></p>
             </div>
             <div class="col-3 col-xs-3"></div>
         </div>
