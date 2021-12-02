@@ -46,12 +46,13 @@
     color: #ffffff;
 }
 
-table.table.table-bordered {
+table.table-dark.table-bordered {
     font-family: 'flama_condensed';
     font-weight: normal;
     font-style: book;
     font-size: 2.25rem;
     width:62%;
+    background-color: transparent !important;
 }
 
 .notifica {

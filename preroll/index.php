@@ -48,7 +48,7 @@
                             </div>
                         </div>
                         <div class="row table_youtube_row px-0 m-0">
-                            <table class="table table-bordered text-center">
+                            <table class="table-dark table-bordered text-center">
                                 <tbody>
                                     <tr>
                                         <td colspan="4">Video riprodotto al</td>
