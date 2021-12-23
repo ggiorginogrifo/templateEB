@@ -100,7 +100,7 @@ body {
     font-family: 'flama_condensed';
     font-weight: 900;
     font-style: extrabold;
-    font-size: 7.5rem;
+    font-size: 6.2rem;
     color: #38d3aa;
 	line-height:1.2;
 }
@@ -130,7 +130,7 @@ hr  {
 .subtitled:before {
     position:absolute;
     font-size:2rem;
-    margin-top:8.1rem;
+    margin-top:7rem;
     color:#ffffff;
     font-family: 'flama_condensed';
     font-weight: normal;
